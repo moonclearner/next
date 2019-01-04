@@ -122,8 +122,5 @@
   {% include '_third-party/bookmark.swig' %}
   {% include '_third-party/copy-code.swig' %}
   {% include '_third-party/pdf.swig' %}
-  {% if theme.canvas_nest %}
-  <script src="https://cdn.bootcss.com/canvas-nest.js/2.0.4/canvas-nest.js"></script>
-  {% endif %}
 </body>
 </html>
