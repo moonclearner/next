@@ -128,3 +128,7 @@
   {% set custom_head = '../../_custom/head.swig' %}
 {% endif %}
 {% include custom_head %}
+
+{% if theme.baidu_site_verification %}
+    <meta name="baidu-site-verification" content="8NezAkUO3s" />
+{% endif %}
