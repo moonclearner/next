@@ -549,9 +549,9 @@ valine:
 #livere_uid: your uid
 
 # Gitment
-# Introduction: https://github.com/imsun/gitment
+# Introduction: https://github.com/imsun/ghttps://github.com/imsun/gitmentitment
 gitment:
-  enable: true
+  enable: false
   mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
   count: true # Show comments count in post meta area
   lazy: false # Comments lazy loading with a button
@@ -568,12 +568,12 @@ gitment:
 # Demo: https://gitalk.github.io
 # Reference: https://asdfv1929.github.io/2018/01/20/gitalk/, https://liujunzhou.cn/2018/8/10/gitalk-error/#more
 gitalk:
-  enable: false
-  github_id:  # Github repo owner
-  repo:  # Repository name to store issues.
-  client_id:  # Github Application Client ID
-  client_secret:  # Github Application Client Secret
-  admin_user:  # GitHub repo owner and collaborators, only these guys can initialize github issues
+  enable: true
+  github_id: moonclearner # Github repo owner
+  repo: moonclearner.github.io # Repository name to store issues.
+  client_id: e47bf4fb4f5f701fc3a6 # Github Application Client ID
+  client_secret: 9155535868459f5a16e1180edee3a495ecc8eb71 # Github Application Client Secret
+  admin_user: moonclearner # GitHub repo owner and collaborators, only these guys can initialize github issues
   distraction_free_mode: true # Facebook-like distraction free mode
 
 # Baidu Share
@@ -859,7 +859,7 @@ pace_theme: pace-theme-minimal
 # Canvas-nest
 # Dependencies: https://github.com/theme-next/theme-next-canvas-nest
 canvas_nest:
-  enable: true
+  enable: false
   onmobile: true # display on mobile or not
   color: '0,0,255' # RGB values, use ',' to separate
   opacity: 0.5 # the opacity of line: 0~1

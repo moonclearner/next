@@ -24,6 +24,9 @@
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="{{ page.lang || page.language || config.language }}">
+  <div class="bg_content">
+      <canvas id="canvas"></canvas>
+  </div>
 
   {% set container_class = "container " %}
   {% if theme.sidebar.position %}
@@ -123,4 +126,5 @@
   {% include '_third-party/copy-code.swig' %}
   {% include '_third-party/pdf.swig' %}
 </body>
+<script type="text/javascript" src="/js/src/dynamic_bg.js"></script>
 </html>
