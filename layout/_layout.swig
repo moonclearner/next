@@ -127,4 +127,5 @@
   {% include '_third-party/pdf.swig' %}
 </body>
 <script type="text/javascript" src="/js/src/dynamic_bg.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/moonclearner/live2d-widget/autoload.js"></script>
 </html>
